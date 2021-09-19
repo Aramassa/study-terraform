@@ -1,0 +1,7 @@
+tasks:
+  - name: install dependencies
+    command: >
+      brew install terraform
+vscode:
+  extensions:
+    - hashicorp.terraform
