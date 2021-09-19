@@ -13,6 +13,13 @@ Best Practices. https://www.terraform-best-practices.com/
 * terraform.tfvars
 * outputs.tf
 
+#### terraform.lock.hcl
+
+* 使用したproviderのバージョンを固定化するためなどで利用している
+* 実行の再現性を出すためにバージョン管理には含める必要がある
+
+https://qiita.com/nyamada43/items/b8becb672ad572897c25
+
 ### 0-3. ディレクトリ構成を学ぼう
 
 https://www.terraform-best-practices.com/code-structure
