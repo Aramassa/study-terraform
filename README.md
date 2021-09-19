@@ -24,9 +24,18 @@ https://qiita.com/nyamada43/items/b8becb672ad572897c25
 
 https://www.terraform-best-practices.com/code-structure
 
+### 0-4. リソースを削除したい
+
+https://fic.ntt.com/documents/tutorials/terraform/rsts/Terraform/major_commands.html#id5
+
+> 3.2.2.2. terraform applyによる作成済みリソースの削除
+一度 terraform apply を実行後、作業用ディレクトリのtfファイル内から、特定のresourceをセクションを削除し、再度 terraform apply を実行すると、 これは作成済みリソースに対する削除として動作します。
+
 ## 1. 基本操作編
 
 ### 1-1. AWSのS3バケットを作ってみよう
+
+[Lesson 1-1](./1-1/)
 
 ### 1-2. IAM を操作してみよう
 
