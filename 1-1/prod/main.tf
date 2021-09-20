@@ -6,7 +6,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    key = "lesson/1-1/dev/terraform.tfstate"
+    key = "lesson/1-1/prod/terraform.tfstate"
     bucket = "terraform-backend-akitsu"
     region = "ap-northeast-1"
   }

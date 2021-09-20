@@ -1,6 +1,6 @@
 variable "env" {
   description = "Env name"
-  default     = "dev"
+  default     = ""
 }
 
 variable "name" {
