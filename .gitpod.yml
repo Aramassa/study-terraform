@@ -5,6 +5,9 @@ tasks:
   - name: environment variable for newrelic
     command: >
       export TF_VAR_nr_api_key=${NR_API_KEY}
+      export TF_VAR_opsgenie_apikey_warn=${OPSGENIE_APIKEY_WARN}
+      export TF_VAR_opsgenie_apikey_crit=${OPSGENIE_APIKEY_CRIT}
+      
 vscode:
   extensions:
     - hashicorp.terraform
