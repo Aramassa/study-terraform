@@ -2,6 +2,9 @@ tasks:
   - name: install dependencies
     command: >
       brew install terraform
+  - name: environment variable for newrelic
+    command: >
+      export TF_VAR_nr_api_key=${NR_API_KEY}
 vscode:
   extensions:
     - hashicorp.terraform
