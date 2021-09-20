@@ -9,9 +9,16 @@ Best Practices. https://www.terraform-best-practices.com/
 ### 0-2. terraform の基本ファイル
 
 * main.tf
+  * variables の再定義
+  * provider のロードと設定
+  * module のロード
+  * backend の定義
 * variables.tf
+  * module で使うと variable のデフォルト定義として使用可能
 * terraform.tfvars
+  * 各環境側で使用する。main.tf に設定が必要になるので注意
 * outputs.tf
+  * 
 
 #### terraform.lock.hcl
 
